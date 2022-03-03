@@ -109,7 +109,7 @@ Advanced Node and Express | 0/22
 
 <hr>
 
-## Scientific Computing with Python Projects 
+## Scientific Computing with Python
 Lessons | Completion
 ------- | :--------:
 Python for Everybody | 56/56
