@@ -8,7 +8,7 @@ Course | Completion
 [Data Visualization Certification](#data-visualization) | 0%
 [Back End Development and APIs Certification](#back-end-development-and-apis) | 0%
 [Quality Assurance Certification](#quality-assurance) | 0%
-[Scientific Computing with Python Certification](#scientific-computing-with-python) | 95%
+[Scientific Computing with Python Certification](#scientific-computing-with-python) | 96%
 [Data Analysis with Python Certification](#data-analysis-with-python) | 0%
 [Information Security Certification](#information-security) | 0%
 [Machine Learning with Python Certification](#machine-learning-with-python) | 0%
@@ -115,7 +115,7 @@ Lessons | Completion
 Python for Everybody | 56/56
 - [x] Arithmetic Formatter
 - [x] Time Calculator
-- [ ] Budget App
+- [x] Budget App
 - [ ] Polygon Area Calculator
 - [ ] Probability Calculator
 
