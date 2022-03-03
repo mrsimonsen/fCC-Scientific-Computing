@@ -1,5 +1,4 @@
-# freeCodeCamp
-My [freeCodeCamp profile](https://www.freecodecamp.org/mrsimonsen)
+# My [freeCodeCamp profile](https://www.freecodecamp.org/mrsimonsen)
 
 Course | Completion
 ------ | :--------:
