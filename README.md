@@ -11,7 +11,7 @@ Course | Completion
 [Scientific Computing with Python Certification](#scientific-computing-with-python) | 98%
 [Data Analysis with Python Certification](#data-analysis-with-python) | 0%
 [Information Security Certification](#information-security) | 0%
-Machine Learning with Python Certification](#machine-learning-with-python) | 0%
+[Machine Learning with Python Certification](#machine-learning-with-python) | 0%
 
 <hr>
 
@@ -82,7 +82,7 @@ JSON APIs and AJAX | 0/10
 
 <hr>
 
-## Back End Development and API
+## Back End Development and APIs
 Lessons | Completion
 ------- | :--------:
 Managing Packages with NPM | 0/10
