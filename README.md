@@ -2,7 +2,7 @@
 
 Course | Completion
 ------ | :--------:
-[Responsive Web Design Certification](#responsive-web-design)| 0%
+[Responsive Web Design Certification](#responsive-web-design)| 14%
 [JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 0%
 [Front End Development Libraries Certification](#front-end-development-libraries) | 0%
 [Data Visualization Certification](#data-visualization) | 0%
@@ -18,7 +18,7 @@ Course | Completion
 ## Responsive Web Design
 Lessons | Completion
 ------- | :--------:
-Basic HTML and HTML5 | 0/28
+Basic HTML and HTML5 | 28/28
 Basic CSS | 0/44
 Applied Visual Design | 0/52
 Applied Accessibility | 0/22
