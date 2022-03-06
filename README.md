@@ -2,7 +2,7 @@
 
 Course | Completion
 ------ | :--------:
-[Responsive Web Design Certification](#responsive-web-design)| 86%
+[Responsive Web Design Certification](#responsive-web-design)| 97%
 [JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 0%
 [Front End Development Libraries Certification](#front-end-development-libraries) | 0%
 [Data Visualization Certification](#data-visualization) | 0%
@@ -24,7 +24,7 @@ Applied Visual Design | 52/52
 Applied Accessibility | 22/22
 Responsive Web Design Principles | 4/4
 CSS Flexbox | 17/17
-CSS Grid | 0/22
+CSS Grid | 22/22
 - [ ] Build a Tribute Page
 - [ ] Build a Survey Form
 - [ ] Build a Technical Documentation Page
