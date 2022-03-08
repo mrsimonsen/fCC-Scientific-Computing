@@ -25,7 +25,7 @@ Applied Accessibility | 22/22
 Responsive Web Design Principles | 4/4
 CSS Flexbox | 17/17
 CSS Grid | 22/22
-- [ ] Build a Tribute Page
+- [x] Build a Tribute Page
 - [ ] Build a Survey Form
 - [ ] Build a Technical Documentation Page
 - [ ] Build a Personal Portfolio Webpage
