@@ -2,7 +2,7 @@
 
 Course | Completion
 ------ | :--------:
-[Responsive Web Design Certification](#responsive-web-design)| 97%
+[Responsive Web Design Certification](#responsive-web-design)| 98%
 [JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 0%
 [Front End Development Libraries Certification](#front-end-development-libraries) | 0%
 [Data Visualization Certification](#data-visualization) | 0%
@@ -26,7 +26,8 @@ Responsive Web Design Principles | 4/4
 CSS Flexbox | 17/17
 CSS Grid | 22/22
 - [x] Build a Tribute Page
-- [ ] Build a Survey Form
+- [x] Build a Survey Form
+- [ ] Build a Product Landing Page
 - [ ] Build a Technical Documentation Page
 - [ ] Build a Personal Portfolio Webpage
 

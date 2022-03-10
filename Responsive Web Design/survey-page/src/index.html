@@ -1,0 +1,42 @@
+<h1 id="title">Star Wars Movie Poll</h1>
+<p id="description">A short poll about Star Wars movies</p>
+<form id="survey-form">
+  
+  <label for="name" id="name-label">Name:</label><br>
+  <input id="name" name="name" required placeholder="Enter your name"><br>
+  
+  <label for="email" id="email-label">Email:</label><br>
+  <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+  
+  <label for="number" id="number-label">Number of Episodes watched (optional)</label><br>
+  <input type="number" name="number" id="number" min=0 max=9 placeholder="4"><br>
+  
+  <label for="dropdown">Which Trilogy is your favorite?</label><br>
+  <select id="dropdown" name="dropdown">
+    <option value="OT">Original Trilogy, IV-VI</option>
+    <option value="PT">Prequel Trilogy, I-III</option>
+    <option value="ST">Sequel Trilogy, VII-IX</option>
+  </select><br>
+
+  <p>Have you viewed additional Star Wars media?</p>
+<label><input type="radio" id="radio" name="additional" value="TV">TV shows only</label><br>
+<label><input type="radio" id="radio" name="additional" value="Movies">Movies only</label><br>
+  <label><input type="radio" id="radio" name="additional" value="Both">Movies and TV shows</label><br>
+  <label><input type="radio" id="radio" name="additional" value="None">None</label><br>
+
+<p>Select which Episodes you've seen:</p>
+  <label for="c1"><input type="checkbox" name="episodes" value="I">Episode I: The Phantom Menance</label><br>
+  <label><input type="checkbox" name="episodes" value="II"></label>Episode II: Attack of the Clones<br>
+  <label><input type="checkbox" name="episodes" value="III">Episode III: Revenge of the Sith</label><br>
+  <label><input type="checkbox" name="episodes" value="IV">Episode IV: A New Hope</label><br>
+  <label><input type="checkbox" name="episodes" value="V">Episode V: The Empire Strikes Back</label><br>
+  <label><input type="checkbox" name="episodes" value="VI">Episode VI: Return of the Jedi</label><br>
+  <label><input type="checkbox" name="episodes" value="VII">Episode VII: The Force Awakens</label><br>
+  <label><input type="checkbox" name="episodes" value="VIII">Episode VIII: The Last Jedi</label><br>
+  <label><input type="checkbox" name="episodes" value="IX">Episode IX: The Rise of Skywalker</label><br>
+  
+  <label for="comments">Comments</label><br>
+  <textarea id="comments"></textarea><br>
+  
+  <button id="submit">Submit</button>
+</form>
