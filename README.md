@@ -12,7 +12,7 @@ Course | Completion
 [Data Analysis with Python Certification](#data-analysis-with-python) | 0%
 [Information Security Certification](#information-security) | 0%
 [Machine Learning with Python Certification](#machine-learning-with-python) | 0%
-[Relational Database (Beta)](#relational-database) | 1%
+[Relational Database (Beta)](#relational-database) | 12%
 <hr>
 
 ## Responsive Web Design
@@ -165,7 +165,7 @@ How Neural Networks Work | 0/4
 Lessons | Completion
 ------- | :--------:
 Learn Bash by Building a Boilerplate | 170/170
-Learn Relational Databases by Building a Mario Database | 0/165
+Learn Relational Databases by Building a Mario Database | 17/165
 Learn Bash Scripting by Building Five Programs | 0/220
 Learn SQL by Building a Student Database: Part 1 | 0/140
 Learn SQL by Building a Student Database: Part 2 | 0/140
@@ -173,6 +173,7 @@ Learn Advanced Bash by Building a Kitty Ipsum Translator | 0/140
 Learn Bash and SQL by Building a Bike Rental Shop | 0/210
 Learn Nano by Building a Castle | 0/40
 Learn Git by Building an SQL Reference Object | 0/240
+Total Lessons | 1470
 - [ ] Celestial Bodies Database project
 - [ ] World Cup Database project
 - [ ] Salon Appointment Scheduler project
