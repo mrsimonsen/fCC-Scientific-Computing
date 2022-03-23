@@ -165,7 +165,7 @@ How Neural Networks Work | 0/4
 Lessons | Completion
 ------- | :--------:
 Learn Bash by Building a Boilerplate | 170/170
-Learn Relational Databases by Building a Mario Database | 149/165
+Learn Relational Databases by Building a Mario Database | 165/165
 Learn Bash Scripting by Building Five Programs | 0/220
 Learn SQL by Building a Student Database: Part 1 | 0/140
 Learn SQL by Building a Student Database: Part 2 | 0/140
