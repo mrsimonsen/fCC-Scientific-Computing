@@ -174,7 +174,7 @@ Learn Bash and SQL by Building a Bike Rental Shop | 0/210
 Learn Nano by Building a Castle | 0/40
 Learn Git by Building an SQL Reference Object | 0/240
 Total Lessons | 1470
-- [ ] Celestial Bodies Database project
+- [x] Celestial Bodies Database project
 - [ ] World Cup Database project
 - [ ] Salon Appointment Scheduler project
 - [ ] Periodic Table Database project
