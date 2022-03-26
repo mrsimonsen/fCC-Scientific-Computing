@@ -12,7 +12,7 @@ Course | Completion
 [Data Analysis with Python Certification](#data-analysis-with-python) | 0%
 [Information Security Certification](#information-security) | 0%
 [Machine Learning with Python Certification](#machine-learning-with-python) | 0%
-[Relational Database (Beta)](#relational-database) | 47%
+[Relational Database (Beta)](#relational-database) | 54%
 <hr>
 
 ## Responsive Web Design
@@ -168,7 +168,7 @@ Learn Bash by Building a Boilerplate | 170/170
 Learn Relational Databases by Building a Mario Database | 165/165
 Learn Bash Scripting by Building Five Programs | 220/220
 Learn SQL by Building a Student Database: Part 1 | 140/140
-Learn SQL by Building a Student Database: Part 2 | 0/140
+Learn SQL by Building a Student Database: Part 2 | 102/140
 Learn Advanced Bash by Building a Kitty Ipsum Translator | 0/140
 Learn Bash and SQL by Building a Bike Rental Shop | 0/210
 Learn Nano by Building a Castle | 0/40
