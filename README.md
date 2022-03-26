@@ -167,7 +167,7 @@ Lessons | Completion
 Learn Bash by Building a Boilerplate | 170/170
 Learn Relational Databases by Building a Mario Database | 165/165
 Learn Bash Scripting by Building Five Programs | 220/220
-Learn SQL by Building a Student Database: Part 1 | 102/140
+Learn SQL by Building a Student Database: Part 1 | 140/140
 Learn SQL by Building a Student Database: Part 2 | 0/140
 Learn Advanced Bash by Building a Kitty Ipsum Translator | 0/140
 Learn Bash and SQL by Building a Bike Rental Shop | 0/210
