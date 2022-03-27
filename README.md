@@ -12,7 +12,7 @@ Course | Completion
 [Data Analysis with Python Certification](#data-analysis-with-python) | 0%
 [Information Security Certification](#information-security) | 0%
 [Machine Learning with Python Certification](#machine-learning-with-python) | 0%
-[Relational Database (Beta)](#relational-database) | 54%
+[Relational Database (Beta)](#relational-database) | 56%
 <hr>
 
 ## Responsive Web Design
@@ -63,7 +63,7 @@ React | 0/47
 Redux | 0/17
 React and Redux | 0/10
 - [ ] Build a Random Quote Machine
-- [ ] Build a Mardown Previewer
+- [ ] Build a Markdown Previewer
 - [ ] Build a Drum Machine
 - [ ] Build a JavaScript Calculator
 - [ ] Build a 25 + 5 Clock
@@ -91,7 +91,7 @@ Basic Node and Express | 0/12
 MongoDB and Mongoose | 0/12
 - [ ] Timestamp Microservice
 - [ ] Request Header Parser Microservice
-- [ ] URL Shortner Microservice
+- [ ] URL Shortener Microservice
 - [ ] Exercise Tracker
 - [ ] File Metadata Microservice
 
@@ -129,7 +129,7 @@ Data Analysis with Python | 0/28
 Numpy | 0/9
 - [ ] Mean-Variance-Standard Deviation Calculator
 - [ ] Demographic Data Analyzer
-- [ ] Medical Data Visulizer
+- [ ] Medical Data Visualizer
 - [ ] Page View Time Series Visualizer
 - [ ] Sea Level Predictor
 
@@ -168,7 +168,7 @@ Learn Bash by Building a Boilerplate | 170/170
 Learn Relational Databases by Building a Mario Database | 165/165
 Learn Bash Scripting by Building Five Programs | 220/220
 Learn SQL by Building a Student Database: Part 1 | 140/140
-Learn SQL by Building a Student Database: Part 2 | 102/140
+Learn SQL by Building a Student Database: Part 2 | 140/140
 Learn Advanced Bash by Building a Kitty Ipsum Translator | 0/140
 Learn Bash and SQL by Building a Bike Rental Shop | 0/210
 Learn Nano by Building a Castle | 0/40
