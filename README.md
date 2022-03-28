@@ -175,7 +175,7 @@ Learn Nano by Building a Castle | 0/40
 Learn Git by Building an SQL Reference Object | 0/240
 Total Lessons | 1470
 - [x] Celestial Bodies Database project
-- [ ] World Cup Database project
+- [x] World Cup Database project
 - [ ] Salon Appointment Scheduler project
 - [ ] Periodic Table Database project
 - [ ] Number Guessing Game project
