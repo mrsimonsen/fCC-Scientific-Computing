@@ -12,7 +12,7 @@ Course | Completion
 [Data Analysis with Python Certification](#data-analysis-with-python) | 0%
 [Information Security Certification](#information-security) | 0%
 [Machine Learning with Python Certification](#machine-learning-with-python) | 0%
-[Relational Database (Beta)](#relational-database) | 80%
+[Relational Database (Beta)](#relational-database) | 83%
 <hr>
 
 ## Responsive Web Design
@@ -171,7 +171,7 @@ Learn SQL by Building a Student Database: Part 1 | 140/140
 Learn SQL by Building a Student Database: Part 2 | 140/140
 Learn Advanced Bash by Building a Kitty Ipsum Translator | 140/140
 Learn Bash and SQL by Building a Bike Rental Shop | 210/210
-Learn Nano by Building a Castle | 0/40
+Learn Nano by Building a Castle | 40/40
 Learn Git by Building an SQL Reference Object | 0/240
 Total Lessons | 1470
 - [x] Celestial Bodies Database project
