@@ -12,7 +12,7 @@ Course | Completion
 [Data Analysis with Python Certification](#data-analysis-with-python) | 0%
 [Information Security Certification](#information-security) | 0%
 [Machine Learning with Python Certification](#machine-learning-with-python) | 0%
-[Relational Database (Beta)](#relational-database) | 99%
+[Relational Database (Beta)](#relational-database) | 100%
 <hr>
 
 ## Responsive Web Design
@@ -177,4 +177,4 @@ Learn Git by Building an SQL Reference Object | 240/240
 - [x] World Cup Database project
 - [x] Salon Appointment Scheduler project
 - [x] Periodic Table Database project
-- [ ] Number Guessing Game project
+- [x] Number Guessing Game project
