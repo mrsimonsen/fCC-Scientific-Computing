@@ -2,7 +2,7 @@
 
 Course | Completion
 ------ | :--------:
-[Responsive Web Design Certification](#responsive-web-design)| 98%
+[Responsive Web Design Certification](#responsive-web-design)| 99%
 [JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 0%
 [Front End Development Libraries Certification](#front-end-development-libraries) | 0%
 [Data Visualization Certification](#data-visualization) | 0%
@@ -28,7 +28,7 @@ CSS Grid | 22/22
 - [x] Build a Tribute Page
 - [x] Build a Survey Form
 - [x] Build a Product Landing Page
-- [ ] Build a Technical Documentation Page
+- [x] Build a Technical Documentation Page
 - [ ] Build a Personal Portfolio Webpage
 
 <hr>
