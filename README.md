@@ -3,7 +3,7 @@
 Course | Completion
 ------ | :--------:
 [Responsive Web Design Certification](#responsive-web-design)| 100%
-[JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 0%
+[JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 1%
 [Front End Development Libraries Certification](#front-end-development-libraries) | 0%
 [Data Visualization Certification](#data-visualization) | 0%
 [Back End Development and APIs Certification](#back-end-development-and-apis) | 0%
@@ -18,13 +18,13 @@ Course | Completion
 ## Responsive Web Design
 Lessons | Completion
 ------- | :--------:
-Basic HTML and HTML5 | 28/28
-Basic CSS | 44/44
-Applied Visual Design | 52/52
-Applied Accessibility | 22/22
-Responsive Web Design Principles | 4/4
-CSS Flexbox | 17/17
-CSS Grid | 22/22
+Basic HTML and HTML5 | 100%
+Basic CSS | 100%
+Applied Visual Design | 100%
+Applied Accessibility | 100%
+Responsive Web Design Principles | 100%
+CSS Flexbox | 100%
+CSS Grid | 100%
 - [x] Build a Tribute Page
 - [x] Build a Survey Form
 - [x] Build a Product Landing Page
@@ -36,15 +36,15 @@ CSS Grid | 22/22
 ## JavaScript Algorithms and Data Structures
 Lessons | Completion
 ------- | :--------:
-Basic JavaScript | 0/113
-ES6 | 0/29
-Regular Expressions | 0/33
-Debugging | 0/12
-Basic Data Structures | 0/20
-Basic Algorithm Scripting | 0/16
-Object Oriented Programming | 0/26
-Functional Programming | 0/24
-Intermediate Algorithm Scripting | 0/21
+Basic JavaScript | 22%
+ES6 | 0%
+Regular Expressions | 0%
+Debugging | 0%
+Basic Data Structures | 0%
+Basic Algorithm Scripting | 0%
+Object Oriented Programming | 0%
+Functional Programming | 0%
+Intermediate Algorithm Scripting | 0%
 - [ ] Palindrome Checker
 - [ ] Roman Numeral Converter
 - [ ] Caesars Cipher
@@ -56,12 +56,12 @@ Intermediate Algorithm Scripting | 0/21
 ## Front End Development Libraries
 Lessons | Completion
 ------- | :--------:
-Bootstrap | 0/31
-jQuery | 0/10
-SASS | 0/9
-React | 0/47
-Redux | 0/17
-React and Redux | 0/10
+Bootstrap | 0%
+jQuery | 0%
+SASS | 0%
+React | 0%
+Redux | 0%
+React and Redux | 0%
 - [ ] Build a Random Quote Machine
 - [ ] Build a Markdown Previewer
 - [ ] Build a Drum Machine
@@ -73,8 +73,8 @@ React and Redux | 0/10
 ## Data Visualization
 Lessons | Completion
 ------- | :--------:
-Data Visualization with D3 | 0/29
-JSON APIs and AJAX | 0/10
+Data Visualization with D3 | 0%
+JSON APIs and AJAX | 0%
 - [ ] Visualize Data with a Bar Chart
 - [ ] Visualize Data with a Scatterplot Graph
 - [ ] Visualize Data with a Heat Map
@@ -86,9 +86,9 @@ JSON APIs and AJAX | 0/10
 ## Back End Development and APIs
 Lessons | Completion
 ------- | :--------:
-Managing Packages with NPM | 0/10
-Basic Node and Express | 0/12
-MongoDB and Mongoose | 0/12
+Managing Packages with NPM | 0%
+Basic Node and Express | 0%
+MongoDB and Mongoose | 0%
 - [ ] Timestamp Microservice
 - [ ] Request Header Parser Microservice
 - [ ] URL Shortener Microservice
@@ -100,8 +100,8 @@ MongoDB and Mongoose | 0/12
 ## Quality Assurance
 Lessons | Completion
 ------- | :--------:
-Quality Assurance and Testing with Chai | 0/25
-Advanced Node and Express | 0/22
+Quality Assurance and Testing with Chai | 0%
+Advanced Node and Express | 0%
 - [ ] Metric-Imperial Converter
 - [ ] Issue Tracker
 - [ ] Personal Library
@@ -113,7 +113,7 @@ Advanced Node and Express | 0/22
 ## Scientific Computing with Python
 Lessons | Completion
 ------- | :--------:
-Python for Everybody | 56/56
+Python for Everybody | 100%
 - [x] Arithmetic Formatter
 - [x] Time Calculator
 - [x] Budget App
@@ -125,8 +125,8 @@ Python for Everybody | 56/56
 ## Data Analysis with Python
 Lessons | Completion
 ------- | :--------:
-Data Analysis with Python | 0/28
-Numpy | 0/9
+Data Analysis with Python | 0%
+Numpy | 0%
 - [ ] Mean-Variance-Standard Deviation Calculator
 - [ ] Demographic Data Analyzer
 - [ ] Medical Data Visualizer
@@ -138,8 +138,8 @@ Numpy | 0/9
 ## Information Security
 Lessons | Completion
 ------- | :--------:
-Information Security with HelmetJS | 0/14
-Python for Penetration Testing | 0/7
+Information Security with HelmetJS | 0%
+Python for Penetration Testing | 0%
 - [ ] Stock Price Checker
 - [ ] Anonymous Message board
 - [ ] Port Scanner
@@ -151,8 +151,8 @@ Python for Penetration Testing | 0/7
 ## Machine Learning with Python
 Lessons | Completion
 ------- | :--------:
-Tensorflow | 0/32
-How Neural Networks Work | 0/4
+Tensorflow | 0%
+How Neural Networks Work | 0%
 - [ ] Rock Paper Scissors
 - [ ] Cat and Dog Image Classifier
 - [ ] Book Recommendation Engine using KNN
@@ -164,15 +164,15 @@ How Neural Networks Work | 0/4
 ## Relational Database
 Lessons | Completion
 ------- | :--------:
-Learn Bash by Building a Boilerplate | 170/170
-Learn Relational Databases by Building a Mario Database | 165/165
-Learn Bash Scripting by Building Five Programs | 220/220
-Learn SQL by Building a Student Database: Part 1 | 140/140
-Learn SQL by Building a Student Database: Part 2 | 140/140
-Learn Advanced Bash by Building a Kitty Ipsum Translator | 140/140
-Learn Bash and SQL by Building a Bike Rental Shop | 210/210
-Learn Nano by Building a Castle | 40/40
-Learn Git by Building an SQL Reference Object | 240/240
+Learn Bash by Building a Boilerplate | 100%
+Learn Relational Databases by Building a Mario Database | 100%
+Learn Bash Scripting by Building Five Programs | 100%
+Learn SQL by Building a Student Database: Part 1 | 100%
+Learn SQL by Building a Student Database: Part 2 | 100%
+Learn Advanced Bash by Building a Kitty Ipsum Translator | 100%
+Learn Bash and SQL by Building a Bike Rental Shop | 100%
+Learn Nano by Building a Castle | 100%
+Learn Git by Building an SQL Reference Object | 100%
 - [x] Celestial Bodies Database project
 - [x] World Cup Database project
 - [x] Salon Appointment Scheduler project
