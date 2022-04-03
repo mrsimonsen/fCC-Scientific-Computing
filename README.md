@@ -3,7 +3,7 @@
 Course | Completion
 ------ | :--------:
 [Responsive Web Design Certification](#responsive-web-design)| 100%
-[JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 2%
+[JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 6%
 [Front End Development Libraries Certification](#front-end-development-libraries) | 0%
 [Data Visualization Certification](#data-visualization) | 0%
 [Back End Development and APIs Certification](#back-end-development-and-apis) | 0%
@@ -36,7 +36,7 @@ CSS Grid | 100%
 ## JavaScript Algorithms and Data Structures
 Lessons | Completion
 ------- | :--------:
-Basic JavaScript | 30%
+Basic JavaScript | 85%
 ES6 | 0%
 Regular Expressions | 0%
 Debugging | 0%
