@@ -2,7 +2,7 @@
 
 Course | Completion
 ------ | :--------:
-[Responsive Web Design Certification](#responsive-web-design)| 100%
+[Legacy Responsive Web Design Certification](#responsive-web-design)| 100%
 [JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 7%
 [Front End Development Libraries Certification](#front-end-development-libraries) | 0%
 [Data Visualization Certification](#data-visualization) | 0%
@@ -15,7 +15,7 @@ Course | Completion
 [Relational Database (Beta)](#relational-database) | 100%
 <hr>
 
-## Responsive Web Design
+## Legacy Responsive Web Design
 Lessons | Completion
 ------- | :--------:
 Basic HTML and HTML5 | 100%
