@@ -125,7 +125,7 @@ Python for Everybody | 100%
 ## Data Analysis with Python
 Lessons | Completion
 ------- | :--------:
-Data Analysis with Python | 0%
+Data Analysis with Python | 25%
 Numpy | 0%
 - [ ] Mean-Variance-Standard Deviation Calculator
 - [ ] Demographic Data Analyzer
