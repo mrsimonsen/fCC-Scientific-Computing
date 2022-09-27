@@ -9,7 +9,7 @@ Course | Completion
 [Back End Development and APIs Certification](#back-end-development-and-apis) | 0%
 [Quality Assurance Certification](#quality-assurance) | 0%
 [Scientific Computing with Python Certification](#scientific-computing-with-python) | 100%
-[Data Analysis with Python Certification](#data-analysis-with-python) | 11%
+[Data Analysis with Python Certification](#data-analysis-with-python) | 14%
 [Information Security Certification](#information-security) | 0%
 [Machine Learning with Python Certification](#machine-learning-with-python) | 0%
 [Relational Database (Beta)](#relational-database) | 100%
@@ -125,7 +125,7 @@ Python for Everybody | 100%
 ## Data Analysis with Python
 Lessons | Completion
 ------- | :--------:
-Data Analysis with Python | 79%
+Data Analysis with Python | 100%
 Numpy | 0%
 - [ ] Mean-Variance-Standard Deviation Calculator
 - [ ] Demographic Data Analyzer
