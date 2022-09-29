@@ -16,10 +16,10 @@ When the budget object is printed it should display:
 Here is an example of the output:
 ```
 *************Food*************
-initial deposit        1000.00
-groceries               -10.15
+initial deposit		1000.00
+groceries			   -10.15
 restaurant and more foo -15.89
-Transfer to Clothing    -50.00
+Transfer to Clothing	-50.00
 Total: 923.96
 ```
 
@@ -33,26 +33,26 @@ Look at the example output below very closely and make sure the spacing of the o
 
 ```
 Percentage spent by category
-100|          
- 90|          
- 80|          
- 70|          
- 60| o        
- 50| o        
- 40| o        
- 30| o        
- 20| o  o     
+100|		  
+ 90|		  
+ 80|		  
+ 70|		  
+ 60| o		
+ 50| o		
+ 40| o		
+ 30| o		
+ 20| o  o	 
  10| o  o  o  
   0| o  o  o  
-    ----------
-     F  C  A  
-     o  l  u  
-     o  o  t  
-     d  t  o  
-        h     
-        i     
-        n     
-        g     
+	----------
+	 F  C  A  
+	 o  l  u  
+	 o  o  t  
+	 d  t  o  
+		h	 
+		i	 
+		n	 
+		g	 
 ```
 
 The unit tests for this project are in `test_module.py`.

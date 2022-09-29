@@ -48,9 +48,9 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.players (
-    username character varying(30) NOT NULL,
-    games_played integer DEFAULT 0 NOT NULL,
-    best_game integer
+	username character varying(30) NOT NULL,
+	games_played integer DEFAULT 0 NOT NULL,
+	best_game integer
 );
 
 
@@ -67,7 +67,7 @@ ALTER TABLE public.players OWNER TO freecodecamp;
 --
 
 ALTER TABLE ONLY public.players
-    ADD CONSTRAINT players_pkey PRIMARY KEY (username);
+	ADD CONSTRAINT players_pkey PRIMARY KEY (username);
 
 
 --

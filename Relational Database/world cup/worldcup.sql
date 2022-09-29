@@ -48,13 +48,13 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.games (
-    game_id integer NOT NULL,
-    year integer NOT NULL,
-    round character varying(30) NOT NULL,
-    winner_id integer NOT NULL,
-    opponent_id integer NOT NULL,
-    winner_goals integer NOT NULL,
-    opponent_goals integer NOT NULL
+	game_id integer NOT NULL,
+	year integer NOT NULL,
+	round character varying(30) NOT NULL,
+	winner_id integer NOT NULL,
+	opponent_id integer NOT NULL,
+	winner_goals integer NOT NULL,
+	opponent_goals integer NOT NULL
 );
 
 
@@ -65,12 +65,12 @@ ALTER TABLE public.games OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.games_game_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.games_game_id_seq OWNER TO freecodecamp;
@@ -87,8 +87,8 @@ ALTER SEQUENCE public.games_game_id_seq OWNED BY public.games.game_id;
 --
 
 CREATE TABLE public.teams (
-    team_id integer NOT NULL,
-    name character varying(30) NOT NULL
+	team_id integer NOT NULL,
+	name character varying(30) NOT NULL
 );
 
 
@@ -99,12 +99,12 @@ ALTER TABLE public.teams OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.teams_team_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.teams_team_id_seq OWNER TO freecodecamp;
@@ -161,7 +161,7 @@ SELECT pg_catalog.setval('public.teams_team_id_seq', 1, false);
 --
 
 ALTER TABLE ONLY public.games
-    ADD CONSTRAINT games_pkey PRIMARY KEY (game_id);
+	ADD CONSTRAINT games_pkey PRIMARY KEY (game_id);
 
 
 --
@@ -169,7 +169,7 @@ ALTER TABLE ONLY public.games
 --
 
 ALTER TABLE ONLY public.teams
-    ADD CONSTRAINT teams_name_key UNIQUE (name);
+	ADD CONSTRAINT teams_name_key UNIQUE (name);
 
 
 --
@@ -177,7 +177,7 @@ ALTER TABLE ONLY public.teams
 --
 
 ALTER TABLE ONLY public.teams
-    ADD CONSTRAINT teams_pkey PRIMARY KEY (team_id);
+	ADD CONSTRAINT teams_pkey PRIMARY KEY (team_id);
 
 
 --
@@ -185,7 +185,7 @@ ALTER TABLE ONLY public.teams
 --
 
 ALTER TABLE ONLY public.games
-    ADD CONSTRAINT games_opponent_id_fkey FOREIGN KEY (opponent_id) REFERENCES public.teams(team_id);
+	ADD CONSTRAINT games_opponent_id_fkey FOREIGN KEY (opponent_id) REFERENCES public.teams(team_id);
 
 
 --
@@ -193,7 +193,7 @@ ALTER TABLE ONLY public.games
 --
 
 ALTER TABLE ONLY public.games
-    ADD CONSTRAINT games_winner_id_fkey FOREIGN KEY (winner_id) REFERENCES public.teams(team_id);
+	ADD CONSTRAINT games_winner_id_fkey FOREIGN KEY (winner_id) REFERENCES public.teams(team_id);
 
 
 --

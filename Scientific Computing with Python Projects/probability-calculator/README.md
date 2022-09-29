@@ -30,9 +30,9 @@ Here is how you would call the `experiment` function based on the example above 
 ```
 hat = Hat(black=6, red=4, green=3)
 probability = experiment(hat=hat, 
-                  expected_balls={"red":2,"green":1},
-                  num_balls_drawn=5,
-                  num_experiments=2000)
+				  expected_balls={"red":2,"green":1},
+				  num_balls_drawn=5,
+				  num_experiments=2000)
 ```
 
 Since this is based on random draws, the probability will be slightly different each time the code is run.

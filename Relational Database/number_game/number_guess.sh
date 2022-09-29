@@ -29,17 +29,17 @@ do
   #if not a number
   if [[ ! $GUESS =~ ^[0-9]+$ ]]
   then
-    echo "That is not an integer, guess again:"
+	echo "That is not an integer, guess again:"
   else
-    #if > number
-    if [[ $GUESS > $NUMBER ]]
-    then
-      echo "It's lower than that, guess again:"
-    #if < number
-    elif [[ $GUESS < $NUMBER ]]
-    then
-      echo "It's higher than that, guess again:"
-    fi
+	#if > number
+	if [[ $GUESS > $NUMBER ]]
+	then
+	  echo "It's lower than that, guess again:"
+	#if < number
+	elif [[ $GUESS < $NUMBER ]]
+	then
+	  echo "It's higher than that, guess again:"
+	fi
   fi
   read GUESS
 done
@@ -57,8 +57,8 @@ else
   #check if $COUNT < best
   if [[ $COUNT < $BEST ]]
   then
-    #update database with best = $COUNT
-    HIGH_SCORE_RESULT=$($PSQL "UPDATE players SET best_game = $COUNT WHERE username = '$USERNAME'")
+	#update database with best = $COUNT
+	HIGH_SCORE_RESULT=$($PSQL "UPDATE players SET best_game = $COUNT WHERE username = '$USERNAME'")
   fi
 fi
-    
+	

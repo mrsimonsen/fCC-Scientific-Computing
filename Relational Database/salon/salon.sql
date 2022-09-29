@@ -48,10 +48,10 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.appointments (
-    appointment_id integer NOT NULL,
-    customer_id integer,
-    service_id integer,
-    "time" character varying(30)
+	appointment_id integer NOT NULL,
+	customer_id integer,
+	service_id integer,
+	"time" character varying(30)
 );
 
 
@@ -62,12 +62,12 @@ ALTER TABLE public.appointments OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.appointments_appointment_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.appointments_appointment_id_seq OWNER TO freecodecamp;
@@ -84,9 +84,9 @@ ALTER SEQUENCE public.appointments_appointment_id_seq OWNED BY public.appointmen
 --
 
 CREATE TABLE public.customers (
-    customer_id integer NOT NULL,
-    phone character varying(30),
-    name character varying(50)
+	customer_id integer NOT NULL,
+	phone character varying(30),
+	name character varying(50)
 );
 
 
@@ -97,12 +97,12 @@ ALTER TABLE public.customers OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.customers_customer_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.customers_customer_id_seq OWNER TO freecodecamp;
@@ -119,8 +119,8 @@ ALTER SEQUENCE public.customers_customer_id_seq OWNED BY public.customers.custom
 --
 
 CREATE TABLE public.services (
-    service_id integer NOT NULL,
-    name character varying(30)
+	service_id integer NOT NULL,
+	name character varying(30)
 );
 
 
@@ -131,12 +131,12 @@ ALTER TABLE public.services OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.services_service_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.services_service_id_seq OWNER TO freecodecamp;
@@ -218,7 +218,7 @@ SELECT pg_catalog.setval('public.services_service_id_seq', 5, true);
 --
 
 ALTER TABLE ONLY public.appointments
-    ADD CONSTRAINT appointments_pkey PRIMARY KEY (appointment_id);
+	ADD CONSTRAINT appointments_pkey PRIMARY KEY (appointment_id);
 
 
 --
@@ -226,7 +226,7 @@ ALTER TABLE ONLY public.appointments
 --
 
 ALTER TABLE ONLY public.customers
-    ADD CONSTRAINT customers_phone_key UNIQUE (phone);
+	ADD CONSTRAINT customers_phone_key UNIQUE (phone);
 
 
 --
@@ -234,7 +234,7 @@ ALTER TABLE ONLY public.customers
 --
 
 ALTER TABLE ONLY public.customers
-    ADD CONSTRAINT customers_pkey PRIMARY KEY (customer_id);
+	ADD CONSTRAINT customers_pkey PRIMARY KEY (customer_id);
 
 
 --
@@ -242,7 +242,7 @@ ALTER TABLE ONLY public.customers
 --
 
 ALTER TABLE ONLY public.services
-    ADD CONSTRAINT services_pkey PRIMARY KEY (service_id);
+	ADD CONSTRAINT services_pkey PRIMARY KEY (service_id);
 
 
 --
@@ -250,7 +250,7 @@ ALTER TABLE ONLY public.services
 --
 
 ALTER TABLE ONLY public.appointments
-    ADD CONSTRAINT appointments_customer_id_fkey FOREIGN KEY (customer_id) REFERENCES public.customers(customer_id);
+	ADD CONSTRAINT appointments_customer_id_fkey FOREIGN KEY (customer_id) REFERENCES public.customers(customer_id);
 
 
 --
@@ -258,7 +258,7 @@ ALTER TABLE ONLY public.appointments
 --
 
 ALTER TABLE ONLY public.appointments
-    ADD CONSTRAINT appointments_service_id_fkey FOREIGN KEY (service_id) REFERENCES public.services(service_id);
+	ADD CONSTRAINT appointments_service_id_fkey FOREIGN KEY (service_id) REFERENCES public.services(service_id);
 
 
 --

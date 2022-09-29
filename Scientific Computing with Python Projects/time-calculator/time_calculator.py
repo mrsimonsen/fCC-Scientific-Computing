@@ -1,12 +1,12 @@
 def add_time(start, duration, day=''):
   days = 0
   week = ('Monday',
-         'Tuesday',
-         'Wednesday',
-         'Thursday',
-         'Friday',
-         'Saturday',
-         'Sunday')
+		 'Tuesday',
+		 'Wednesday',
+		 'Thursday',
+		 'Friday',
+		 'Saturday',
+		 'Sunday')
   
   #conver first time to ints and 24hr
   t1, mid = start.split(' ')
@@ -14,7 +14,7 @@ def add_time(start, duration, day=''):
   h1 = int(h1)
   m1 = int(m1)
   if mid=="PM":
-    h1 += 12
+	h1 += 12
   
   #convert second time to ints
   h2, m2 = duration.split(":")
@@ -36,25 +36,25 @@ def add_time(start, duration, day=''):
   #AM or PM
   new_mid = "PM"
   if h_sum > 12:
-    h_sum -= 12
+	h_sum -= 12
   elif h_sum < 12:
-    new_mid = "AM"
+	new_mid = "AM"
   if h_sum == 0:
-    h_sum = 12
+	h_sum = 12
   
   #format new time
   new_time = f"{h_sum}:{m_sum:02} {new_mid}"
   #determine day of Week
   if day:
-    day = day.title()
-    i = week.index(day)
-    new_day = (i+days)%7
-    new_time += f", {week[new_day]}"
+	day = day.title()
+	i = week.index(day)
+	new_day = (i+days)%7
+	new_time += f", {week[new_day]}"
 
   #was it more than one day?
   if days:
-    if days > 1:
-      new_time += f" ({days} days later)"
-    else:
-      new_time += " (next day)"
+	if days > 1:
+	  new_time += f" ({days} days later)"
+	else:
+	  new_time += " (next day)"
   return new_time

@@ -48,9 +48,9 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.elements (
-    atomic_number integer NOT NULL,
-    symbol character varying(2) NOT NULL,
-    name character varying(40) NOT NULL
+	atomic_number integer NOT NULL,
+	symbol character varying(2) NOT NULL,
+	name character varying(40) NOT NULL
 );
 
 
@@ -61,11 +61,11 @@ ALTER TABLE public.elements OWNER TO freecodecamp;
 --
 
 CREATE TABLE public.properties (
-    atomic_number integer NOT NULL,
-    atomic_mass numeric NOT NULL,
-    melting_point_celsius numeric NOT NULL,
-    boiling_point_celsius numeric NOT NULL,
-    type_id integer NOT NULL
+	atomic_number integer NOT NULL,
+	atomic_mass numeric NOT NULL,
+	melting_point_celsius numeric NOT NULL,
+	boiling_point_celsius numeric NOT NULL,
+	type_id integer NOT NULL
 );
 
 
@@ -76,8 +76,8 @@ ALTER TABLE public.properties OWNER TO freecodecamp;
 --
 
 CREATE TABLE public.types (
-    type_id integer NOT NULL,
-    type character varying(30) NOT NULL
+	type_id integer NOT NULL,
+	type character varying(30) NOT NULL
 );
 
 
@@ -88,12 +88,12 @@ ALTER TABLE public.types OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.types_type_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.types_type_id_seq OWNER TO freecodecamp;
@@ -165,7 +165,7 @@ SELECT pg_catalog.setval('public.types_type_id_seq', 3, true);
 --
 
 ALTER TABLE ONLY public.elements
-    ADD CONSTRAINT elements_atomic_number_key UNIQUE (atomic_number);
+	ADD CONSTRAINT elements_atomic_number_key UNIQUE (atomic_number);
 
 
 --
@@ -173,7 +173,7 @@ ALTER TABLE ONLY public.elements
 --
 
 ALTER TABLE ONLY public.elements
-    ADD CONSTRAINT elements_pkey PRIMARY KEY (atomic_number);
+	ADD CONSTRAINT elements_pkey PRIMARY KEY (atomic_number);
 
 
 --
@@ -181,7 +181,7 @@ ALTER TABLE ONLY public.elements
 --
 
 ALTER TABLE ONLY public.properties
-    ADD CONSTRAINT properties_atomic_number_key UNIQUE (atomic_number);
+	ADD CONSTRAINT properties_atomic_number_key UNIQUE (atomic_number);
 
 
 --
@@ -189,7 +189,7 @@ ALTER TABLE ONLY public.properties
 --
 
 ALTER TABLE ONLY public.properties
-    ADD CONSTRAINT properties_pkey PRIMARY KEY (atomic_number);
+	ADD CONSTRAINT properties_pkey PRIMARY KEY (atomic_number);
 
 
 --
@@ -197,7 +197,7 @@ ALTER TABLE ONLY public.properties
 --
 
 ALTER TABLE ONLY public.types
-    ADD CONSTRAINT types_pkey PRIMARY KEY (type_id);
+	ADD CONSTRAINT types_pkey PRIMARY KEY (type_id);
 
 
 --
@@ -205,7 +205,7 @@ ALTER TABLE ONLY public.types
 --
 
 ALTER TABLE ONLY public.elements
-    ADD CONSTRAINT unique_name UNIQUE (name);
+	ADD CONSTRAINT unique_name UNIQUE (name);
 
 
 --
@@ -213,7 +213,7 @@ ALTER TABLE ONLY public.elements
 --
 
 ALTER TABLE ONLY public.elements
-    ADD CONSTRAINT unique_symbol UNIQUE (symbol);
+	ADD CONSTRAINT unique_symbol UNIQUE (symbol);
 
 
 --
@@ -221,7 +221,7 @@ ALTER TABLE ONLY public.elements
 --
 
 ALTER TABLE ONLY public.properties
-    ADD CONSTRAINT properties_atomic_number_fkey FOREIGN KEY (atomic_number) REFERENCES public.elements(atomic_number);
+	ADD CONSTRAINT properties_atomic_number_fkey FOREIGN KEY (atomic_number) REFERENCES public.elements(atomic_number);
 
 
 --
@@ -229,7 +229,7 @@ ALTER TABLE ONLY public.properties
 --
 
 ALTER TABLE ONLY public.properties
-    ADD CONSTRAINT properties_type_id_fkey FOREIGN KEY (type_id) REFERENCES public.types(type_id);
+	ADD CONSTRAINT properties_type_id_fkey FOREIGN KEY (type_id) REFERENCES public.types(type_id);
 
 
 --

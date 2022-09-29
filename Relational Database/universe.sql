@@ -48,11 +48,11 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.galaxy (
-    galaxy_id integer NOT NULL,
-    name character varying(30) NOT NULL,
-    notes text,
-    visible boolean,
-    satalite boolean
+	galaxy_id integer NOT NULL,
+	name character varying(30) NOT NULL,
+	notes text,
+	visible boolean,
+	satalite boolean
 );
 
 
@@ -63,12 +63,12 @@ ALTER TABLE public.galaxy OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.galaxy_galaxy_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.galaxy_galaxy_id_seq OWNER TO freecodecamp;
@@ -85,11 +85,11 @@ ALTER SEQUENCE public.galaxy_galaxy_id_seq OWNED BY public.galaxy.galaxy_id;
 --
 
 CREATE TABLE public.moon (
-    moon_id integer NOT NULL,
-    has_life boolean,
-    name character varying(30) NOT NULL,
-    planet_id integer,
-    size_ratio numeric
+	moon_id integer NOT NULL,
+	has_life boolean,
+	name character varying(30) NOT NULL,
+	planet_id integer,
+	size_ratio numeric
 );
 
 
@@ -100,12 +100,12 @@ ALTER TABLE public.moon OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.moon_moon_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.moon_moon_id_seq OWNER TO freecodecamp;
@@ -122,11 +122,11 @@ ALTER SEQUENCE public.moon_moon_id_seq OWNED BY public.moon.moon_id;
 --
 
 CREATE TABLE public.planet (
-    planet_id integer NOT NULL,
-    has_life boolean,
-    name character varying(30) NOT NULL,
-    gravity_ratio_to_earth numeric,
-    star_id integer
+	planet_id integer NOT NULL,
+	has_life boolean,
+	name character varying(30) NOT NULL,
+	gravity_ratio_to_earth numeric,
+	star_id integer
 );
 
 
@@ -137,12 +137,12 @@ ALTER TABLE public.planet OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.planet_planet_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.planet_planet_id_seq OWNER TO freecodecamp;
@@ -159,9 +159,9 @@ ALTER SEQUENCE public.planet_planet_id_seq OWNED BY public.planet.planet_id;
 --
 
 CREATE TABLE public.planet_types (
-    planet_types_id integer NOT NULL,
-    name character varying(30) NOT NULL,
-    size character varying(30) NOT NULL
+	planet_types_id integer NOT NULL,
+	name character varying(30) NOT NULL,
+	size character varying(30) NOT NULL
 );
 
 
@@ -172,12 +172,12 @@ ALTER TABLE public.planet_types OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.planet_types_planet_types_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.planet_types_planet_types_id_seq OWNER TO freecodecamp;
@@ -194,11 +194,11 @@ ALTER SEQUENCE public.planet_types_planet_types_id_seq OWNED BY public.planet_ty
 --
 
 CREATE TABLE public.star (
-    star_id integer NOT NULL,
-    name character varying(30) NOT NULL,
-    num_planets integer,
-    galaxy_id integer,
-    size_ratio integer
+	star_id integer NOT NULL,
+	name character varying(30) NOT NULL,
+	num_planets integer,
+	galaxy_id integer,
+	size_ratio integer
 );
 
 
@@ -209,12 +209,12 @@ ALTER TABLE public.star OWNER TO freecodecamp;
 --
 
 CREATE SEQUENCE public.star_star_id_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
+	AS integer
+	START WITH 1
+	INCREMENT BY 1
+	NO MINVALUE
+	NO MAXVALUE
+	CACHE 1;
 
 
 ALTER TABLE public.star_star_id_seq OWNER TO freecodecamp;
@@ -384,7 +384,7 @@ SELECT pg_catalog.setval('public.star_star_id_seq', 6, true);
 --
 
 ALTER TABLE ONLY public.galaxy
-    ADD CONSTRAINT galaxy_galaxy_id_key UNIQUE (galaxy_id);
+	ADD CONSTRAINT galaxy_galaxy_id_key UNIQUE (galaxy_id);
 
 
 --
@@ -392,7 +392,7 @@ ALTER TABLE ONLY public.galaxy
 --
 
 ALTER TABLE ONLY public.galaxy
-    ADD CONSTRAINT galaxy_pkey PRIMARY KEY (galaxy_id);
+	ADD CONSTRAINT galaxy_pkey PRIMARY KEY (galaxy_id);
 
 
 --
@@ -400,7 +400,7 @@ ALTER TABLE ONLY public.galaxy
 --
 
 ALTER TABLE ONLY public.planet_types
-    ADD CONSTRAINT id_unique UNIQUE (planet_types_id);
+	ADD CONSTRAINT id_unique UNIQUE (planet_types_id);
 
 
 --
@@ -408,7 +408,7 @@ ALTER TABLE ONLY public.planet_types
 --
 
 ALTER TABLE ONLY public.moon
-    ADD CONSTRAINT moon_moon_id_key UNIQUE (moon_id);
+	ADD CONSTRAINT moon_moon_id_key UNIQUE (moon_id);
 
 
 --
@@ -416,7 +416,7 @@ ALTER TABLE ONLY public.moon
 --
 
 ALTER TABLE ONLY public.moon
-    ADD CONSTRAINT moon_pkey PRIMARY KEY (moon_id);
+	ADD CONSTRAINT moon_pkey PRIMARY KEY (moon_id);
 
 
 --
@@ -424,7 +424,7 @@ ALTER TABLE ONLY public.moon
 --
 
 ALTER TABLE ONLY public.planet
-    ADD CONSTRAINT planet_pkey PRIMARY KEY (planet_id);
+	ADD CONSTRAINT planet_pkey PRIMARY KEY (planet_id);
 
 
 --
@@ -432,7 +432,7 @@ ALTER TABLE ONLY public.planet
 --
 
 ALTER TABLE ONLY public.planet
-    ADD CONSTRAINT planet_planet_id_key UNIQUE (planet_id);
+	ADD CONSTRAINT planet_planet_id_key UNIQUE (planet_id);
 
 
 --
@@ -440,7 +440,7 @@ ALTER TABLE ONLY public.planet
 --
 
 ALTER TABLE ONLY public.planet_types
-    ADD CONSTRAINT planet_types_pkey PRIMARY KEY (planet_types_id);
+	ADD CONSTRAINT planet_types_pkey PRIMARY KEY (planet_types_id);
 
 
 --
@@ -448,7 +448,7 @@ ALTER TABLE ONLY public.planet_types
 --
 
 ALTER TABLE ONLY public.star
-    ADD CONSTRAINT star_pkey PRIMARY KEY (star_id);
+	ADD CONSTRAINT star_pkey PRIMARY KEY (star_id);
 
 
 --
@@ -456,7 +456,7 @@ ALTER TABLE ONLY public.star
 --
 
 ALTER TABLE ONLY public.star
-    ADD CONSTRAINT star_star_id_key UNIQUE (star_id);
+	ADD CONSTRAINT star_star_id_key UNIQUE (star_id);
 
 
 --
@@ -464,7 +464,7 @@ ALTER TABLE ONLY public.star
 --
 
 ALTER TABLE ONLY public.moon
-    ADD CONSTRAINT moon_planet_id_fkey FOREIGN KEY (planet_id) REFERENCES public.planet(planet_id);
+	ADD CONSTRAINT moon_planet_id_fkey FOREIGN KEY (planet_id) REFERENCES public.planet(planet_id);
 
 
 --
@@ -472,7 +472,7 @@ ALTER TABLE ONLY public.moon
 --
 
 ALTER TABLE ONLY public.planet
-    ADD CONSTRAINT planet_star_id_fkey FOREIGN KEY (star_id) REFERENCES public.star(star_id);
+	ADD CONSTRAINT planet_star_id_fkey FOREIGN KEY (star_id) REFERENCES public.star(star_id);
 
 
 --
@@ -480,7 +480,7 @@ ALTER TABLE ONLY public.planet
 --
 
 ALTER TABLE ONLY public.star
-    ADD CONSTRAINT star_galaxy_id_fkey FOREIGN KEY (galaxy_id) REFERENCES public.galaxy(galaxy_id);
+	ADD CONSTRAINT star_galaxy_id_fkey FOREIGN KEY (galaxy_id) REFERENCES public.galaxy(galaxy_id);
 
 
 --
