@@ -37,7 +37,7 @@ def calculate_demographic_data(print_data=True):
 	rich_pop = df.loc[df['salary']=='>50K']['native-country'].value_counts()
 	total_pop = df['native-country'].value_counts()
 	highest_earning_country = (rich_pop/total_pop).idxmax()
-	highest_earning_country_percentage = (rich_pop/total_pop).max()
+	highest_earning_country_percentage = round((rich_pop/total_pop).max()*100,1)
 
 	# Identify the most popular occupation for those who earn >50K in India.
 	top_IN_occupation = None
