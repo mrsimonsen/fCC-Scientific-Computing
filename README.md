@@ -9,7 +9,7 @@ Course | Completion
 [Back End Development and APIs Certification](#back-end-development-and-apis) | 0%
 [Quality Assurance Certification](#quality-assurance) | 0%
 [Scientific Computing with Python Certification](#scientific-computing-with-python) | 100%
-[Data Analysis with Python Certification](#data-analysis-with-python) | 43%
+[Data Analysis with Python Certification](#data-analysis-with-python) | 57%
 [Information Security Certification](#information-security) | 0%
 [Machine Learning with Python Certification](#machine-learning-with-python) | 0%
 [Relational Database (Beta)](#relational-database) | 100%
@@ -128,7 +128,7 @@ Lessons | Completion
 Data Analysis with Python | 100%
 Numpy | 100%
 - [x] Mean-Variance-Standard Deviation Calculator
-- [ ] Demographic Data Analyzer
+- [x] Demographic Data Analyzer
 - [ ] Medical Data Visualizer
 - [ ] Page View Time Series Visualizer
 - [ ] Sea Level Predictor
