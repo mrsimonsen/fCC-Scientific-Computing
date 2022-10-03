@@ -34,7 +34,11 @@ def draw_cat_plot():
 # Draw Heat Map
 def draw_heat_map():
 	# Clean the data
-	df_heat = None
+	df_heat = df[(df['ap_lo']<=df['ap_hi'])&		#low pressure greater than hi
+	(df['height']>=df['height'].quantile(0.025))&	#height less than 2.5%
+	(df['height']<=df['height'].quantile(0.975))&	#height greater than 97.5%
+	(df['weight']>=df['weight'].quantile(0.025))&	#weight less than 2.5%
+	(df['weight']<=df['weight'].quantile(0.975))]	#weight greater than 97.5%
 
 	# Calculate the correlation matrix
 	corr = None
