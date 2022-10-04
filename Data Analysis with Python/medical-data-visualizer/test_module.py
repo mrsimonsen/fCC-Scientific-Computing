@@ -34,11 +34,12 @@ class HeatMapTestCase(unittest.TestCase):
 		self.ax = self.fig.axes[0]
 
 	def test_heat_map_labels(self):
+		#modified - the value of id should not be in the correlation matrix or heatmap
 		actual = []
 		for label in self.ax.get_xticklabels():
 		  actual.append(label.get_text())
-		expected = ['id', 'age', 'sex', 'height', 'weight', 'ap_hi', 'ap_lo', 'cholesterol', 'gluc', 'smoke', 'alco', 'active', 'cardio', 'overweight']
-		self.assertEqual(actual, expected, "Expected heat map labels to be 'id', 'age', 'sex', 'height', 'weight', 'ap_hi', 'ap_lo', 'cholesterol', 'gluc', 'smoke', 'alco', 'active', 'cardio', 'overweight'.")
+		expected = ['age', 'sex', 'height', 'weight', 'ap_hi', 'ap_lo', 'cholesterol', 'gluc', 'smoke', 'alco', 'active', 'cardio', 'overweight']
+		self.assertEqual(actual, expected, "Expected heat map labels to be 'age', 'sex', 'height', 'weight', 'ap_hi', 'ap_lo', 'cholesterol', 'gluc', 'smoke', 'alco', 'active', 'cardio', 'overweight'.")
 	
 	def test_heat_map_values(self):
 		actual = [text.get_text() for text in self.ax.get_default_bbox_extra_artists() if isinstance(text, mpl.text.Text)]
