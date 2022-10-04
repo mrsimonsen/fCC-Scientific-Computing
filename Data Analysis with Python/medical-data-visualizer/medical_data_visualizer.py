@@ -41,19 +41,16 @@ def draw_heat_map():
 	(df['weight']<=df['weight'].quantile(0.975))]	#weight greater than 97.5%
 
 	# Calculate the correlation matrix
-	corr = None
+	corr = df_heat.corr()
 
 	# Generate a mask for the upper triangle
-	mask = None
-
-
+	mask = np.triu(np.ones_like(corr,dtype=bool))
 
 	# Set up the matplotlib figure
-	fig, ax = None
+	fig, ax = plt.subplots()
 
 	# Draw the heatmap with 'sns.heatmap()'
-
-
+	ax = sns.heatmap(corr,mask=mask,annot=True,fmt=".1f",center=0)
 
 	# Do not modify the next two lines
 	fig.savefig('heatmap.png')
