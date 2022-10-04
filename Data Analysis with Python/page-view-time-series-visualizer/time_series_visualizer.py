@@ -13,9 +13,10 @@ df = df[(df['value']>=df['value'].quantile(0.025))&(df['value']<=df['value'].qua
 
 def draw_line_plot():
     # Draw line plot
-
-
-
+	title = "Daily freeCodeCamp Forum Page Views 5/2016-12/2019"
+	x = "Date"
+	y = "Page Views"
+	
 
 
     # Save image and return fig (don't change this part)
