@@ -13,11 +13,12 @@ df = df[(df['value']>=df['value'].quantile(0.025))&(df['value']<=df['value'].qua
 
 def draw_line_plot():
 	# Draw line plot
-	title = "Daily freeCodeCamp Forum Page Views 5/2016-12/2019"
+	t = "Daily freeCodeCamp Forum Page Views 5/2016-12/2019"
 	x = "Date"
 	y = "Page Views"
+	fig = plt.figure(figsize=(16,9))
+	sns.lineplot(data=df,legend=False,palette=['red']).set(xlabel=x,ylabel=y,title=t)
 	
-
 
 	# Save image and return fig (don't change this part)
 	fig.savefig('line_plot.png')
