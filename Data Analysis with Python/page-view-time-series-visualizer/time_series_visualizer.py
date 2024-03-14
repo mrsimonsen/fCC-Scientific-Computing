@@ -15,6 +15,7 @@ df = df[(df['value']>=df['value'].quantile(0.025))&(df['value']<=df['value'].qua
 month_order = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 df['Month']=df.index.month_name()
 df['Month']=df['Month'].astype(CategoricalDtype(categories=month_order, ordered=True))
+short_months = [month[:3] for month in month_order]
 
 def draw_line_plot():
 	# Draw line plot
@@ -53,27 +54,22 @@ def draw_box_plot():
 	df_box['month'] = [d.strftime('%b') for d in df_box.date]
 
 	# Draw box plots (using Seaborn)
-	fig, axes = plt.subplots(2, 1, figsize=(12, 10))
-	
-	
-	'''AI (Copilot preview) says
-# Year plot
-sns.boxplot(x='year', y='value', data=df_box, ax=axes[0])
-axes[0].set_title('Year-wise Box Plot (Trend)')
-axes[0].set_xlabel('Year')
-axes[0].set_ylabel('Value')
+	fig, axes = plt.subplots(1, 2, figsize=(12, 10))
 
-# Month plot
-sns.boxplot(x='month', y='value', data=df_box, ax=axes[1], order=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])
-axes[1].set_title('Month-wise Box Plot (Seasonality)')
-axes[1].set_xlabel('Month')
-axes[1].set_ylabel('Value')
-	'''
-	#year plot
+	#Year plot
+	sns.boxplot(x='year', y='value', data=df_box, ax=axes[0])
+	axes[0].set_title('Year-wise Box Plot (Trend)')
+	axes[0].set_xlabel('Year')
+	axes[0].set_ylabel('Page Views')
 
+	#Month plot
+	sns.boxplot(x='month', y='value', data=df_box, ax=axes[1], order=short_months)
+	axes[1].set_title('Month-wise Box Plot (Seasonality)')
+	axes[1].set_xlabel('Month')
+	axes[1].set_ylabel('Page Views')
 
-	#month plot
-
+	#fix tick labels
+	axes[1].set_xticklabels(short_months)
 
 	# Save image and return fig (don't change this part)
 	fig.savefig('box_plot.png')
