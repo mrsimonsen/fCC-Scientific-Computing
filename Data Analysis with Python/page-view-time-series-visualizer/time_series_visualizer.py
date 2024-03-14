@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from pandas.plotting import register_matplotlib_converters
+from pandas.api.types import CategoricalDtype
 register_matplotlib_converters()
 
 # Import data (Make sure to parse dates. Consider setting index column to 'date'.)
@@ -10,6 +11,10 @@ df = pd.read_csv("fcc-forum-pageviews.csv", index_col='date', parse_dates=True)
 # Clean data
 df = df[(df['value']>=df['value'].quantile(0.025))&(df['value']<=df['value'].quantile(0.975))]
 
+#Defined custom calendar ordering of months, instead of alphabetical
+month_order = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+df['Month']=df.index.month_name()
+df['Month']=df['Month'].astype(CategoricalDtype(categories=month_order, ordered=True))
 
 def draw_line_plot():
 	# Draw line plot
@@ -26,7 +31,7 @@ def draw_line_plot():
 def draw_bar_plot():
 	# Copy and modify data for monthly bar plot
 	#average daily views by month, grouped by year
-	df_bar = df.groupby([df.index.year,df.index.month_name()])['value'].mean().sort_values(['month'])
+	df_bar = df.groupby([df.index.year,'Month'])['value'].mean().sort_values()
 	#sort by month
 	# Draw bar plot
 	ax = df_bar.unstack().plot.bar()
@@ -48,9 +53,26 @@ def draw_box_plot():
 	df_box['month'] = [d.strftime('%b') for d in df_box.date]
 
 	# Draw box plots (using Seaborn)
+	fig, axes = plt.subplots(2, 1, figsize=(12, 10))
+	
+	
+	'''AI (Copilot preview) says
+# Year plot
+sns.boxplot(x='year', y='value', data=df_box, ax=axes[0])
+axes[0].set_title('Year-wise Box Plot (Trend)')
+axes[0].set_xlabel('Year')
+axes[0].set_ylabel('Value')
+
+# Month plot
+sns.boxplot(x='month', y='value', data=df_box, ax=axes[1], order=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])
+axes[1].set_title('Month-wise Box Plot (Seasonality)')
+axes[1].set_xlabel('Month')
+axes[1].set_ylabel('Value')
+	'''
+	#year plot
 
 
-
+	#month plot
 
 
 	# Save image and return fig (don't change this part)
