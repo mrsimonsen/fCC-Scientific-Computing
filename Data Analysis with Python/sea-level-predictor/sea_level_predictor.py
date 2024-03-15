@@ -12,12 +12,16 @@ def draw_plot():
 
 	# Create first line of best fit
 	line1 = linregress(df['Year'],df['CSIRO Adjusted Sea Level'])
-	future_years = range(1880, 2051)
-	future_predictions = [line1.intercept + line1.slope*year for year in future_years]
-	plt.plot(future_years, future_predictions, color='red')
+	historic_years = range(1880, 2051)
+	historic_predictions = [line1.intercept + line1.slope*year for year in historic_years]
+	plt.plot(historic_years, historic_predictions, color='red')
 
 	# Create second line of best fit
-
+	recent_data = df[df['Year']>=2000]
+	recent_years = range(2000,2051)
+	line2 = linregress(recent_data['Year'], recent_data['CSIRO Adjusted Sea Level'])
+	recent_predictions = [line2.intercept + line2.slope*year for year in recent_years]
+	plt.plot(recent_years, recent_predictions, color='blue')
 
 	# Add labels and title
 
