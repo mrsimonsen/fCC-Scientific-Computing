@@ -7,10 +7,14 @@ def draw_plot():
 	df = pd.read_csv('epa-sea-level.csv')
 
 	# Create scatter plot
+	plt.scatter(x=df['Year'],y=df['CSIRO Adjusted Sea Level'])
 	
 
 	# Create first line of best fit
-
+	line1 = linregress(df['Year'],df['CSIRO Adjusted Sea Level'])
+	future_years = range(1880, 2051)
+	future_predictions = [line1.intercept + line1.slope*year for year in future_years]
+	plt.plot(future_years, future_predictions, color='red')
 
 	# Create second line of best fit
 
