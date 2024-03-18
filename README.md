@@ -4,14 +4,9 @@ Course | Completion
 ------ | :--------:
 [Legacy Responsive Web Design Certification](#responsive-web-design)| 100%
 [JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 7%
-[Front End Development Libraries Certification](#front-end-development-libraries) | 0%
-[Data Visualization Certification](#data-visualization) | 0%
-[Back End Development and APIs Certification](#back-end-development-and-apis) | 0%
-[Quality Assurance Certification](#quality-assurance) | 0%
 [Scientific Computing with Python Certification](#scientific-computing-with-python) | 100%
 [Data Analysis with Python Certification](#data-analysis-with-python) | 100%
-[Information Security Certification](#information-security) | 0%
-[Machine Learning with Python Certification](#machine-learning-with-python) | 0%
+[Machine Learning with Python Certification](#machine-learning-with-python) | 5%
 [Relational Database (Beta)](#relational-database) | 100%
 <hr>
 
@@ -53,63 +48,6 @@ Intermediate Algorithm Scripting | 0%
 
 <hr>
 
-## Front End Development Libraries
-Lessons | Completion
-------- | :--------:
-Bootstrap | 0%
-jQuery | 0%
-SASS | 0%
-React | 0%
-Redux | 0%
-React and Redux | 0%
-- [ ] Build a Random Quote Machine
-- [ ] Build a Markdown Previewer
-- [ ] Build a Drum Machine
-- [ ] Build a JavaScript Calculator
-- [ ] Build a 25 + 5 Clock
-
-<hr>
-
-## Data Visualization
-Lessons | Completion
-------- | :--------:
-Data Visualization with D3 | 0%
-JSON APIs and AJAX | 0%
-- [ ] Visualize Data with a Bar Chart
-- [ ] Visualize Data with a Scatterplot Graph
-- [ ] Visualize Data with a Heat Map
-- [ ] Visualize Data with a Choropleth Map
-- [ ] Visualize Data with Treemap Diagram
-
-<hr>
-
-## Back End Development and APIs
-Lessons | Completion
-------- | :--------:
-Managing Packages with NPM | 0%
-Basic Node and Express | 0%
-MongoDB and Mongoose | 0%
-- [ ] Timestamp Microservice
-- [ ] Request Header Parser Microservice
-- [ ] URL Shortener Microservice
-- [ ] Exercise Tracker
-- [ ] File Metadata Microservice
-
-<hr>
-
-## Quality Assurance
-Lessons | Completion
-------- | :--------:
-Quality Assurance and Testing with Chai | 0%
-Advanced Node and Express | 0%
-- [ ] Metric-Imperial Converter
-- [ ] Issue Tracker
-- [ ] Personal Library
-- [ ] Sudoku Solver
-- [ ] American British Translator
-
-<hr>
-
 ## Scientific Computing with Python
 Lessons | Completion
 ------- | :--------:
@@ -135,23 +73,10 @@ Numpy | 100%
 
 <hr>
 
-## Information Security
-Lessons | Completion
-------- | :--------:
-Information Security with HelmetJS | 0%
-Python for Penetration Testing | 0%
-- [ ] Stock Price Checker
-- [ ] Anonymous Message board
-- [ ] Port Scanner
-- [ ] SHA-1 Password Cracker
-- [ ] Secure Real Time Multiplayer Game
-
-<hr>
-
 ## Machine Learning with Python
 Lessons | Completion
 ------- | :--------:
-Tensorflow | 0%
+Tensorflow | 6%
 How Neural Networks Work | 0%
 - [ ] Rock Paper Scissors
 - [ ] Cat and Dog Image Classifier
