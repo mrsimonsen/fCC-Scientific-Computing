@@ -6,7 +6,7 @@ Course | Completion
 [JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 7%
 [Scientific Computing with Python Certification](#scientific-computing-with-python) | 100%
 [Data Analysis with Python Certification](#data-analysis-with-python) | 100%
-[Machine Learning with Python Certification](#machine-learning-with-python) | 5%
+[Machine Learning with Python Certification](#machine-learning-with-python) | 26%
 [Relational Database (Beta)](#relational-database) | 100%
 <hr>
 
@@ -76,7 +76,7 @@ Numpy | 100%
 ## Machine Learning with Python
 Lessons | Completion
 ------- | :--------:
-Tensorflow | 6%
+Tensorflow | 34%
 How Neural Networks Work | 0%
 - [ ] Rock Paper Scissors
 - [ ] Cat and Dog Image Classifier
