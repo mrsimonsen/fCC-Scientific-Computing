@@ -3,10 +3,9 @@
 Course | Completion
 ------ | :--------:
 [Legacy Responsive Web Design Certification](#responsive-web-design)| 100%
-[JavaScript Algorithms and Data Structures Certification](#javascript-algorithms-and-data-structures) | 7%
 [Scientific Computing with Python Certification](#scientific-computing-with-python) | 100%
 [Data Analysis with Python Certification](#data-analysis-with-python) | 100%
-[Machine Learning with Python Certification](#machine-learning-with-python) | 26%
+[Machine Learning with Python Certification](#machine-learning-with-python) | 14%
 [Relational Database (Beta)](#relational-database) | 100%
 <hr>
 
@@ -25,26 +24,6 @@ CSS Grid | 100%
 - [x] Build a Product Landing Page
 - [x] Build a Technical Documentation Page
 - [x] Build a Personal Portfolio Webpage
-
-<hr>
-
-## JavaScript Algorithms and Data Structures
-Lessons | Completion
-------- | :--------:
-Basic JavaScript | 100%
-ES6 | 0%
-Regular Expressions | 0%
-Debugging | 0%
-Basic Data Structures | 0%
-Basic Algorithm Scripting | 0%
-Object Oriented Programming | 0%
-Functional Programming | 0%
-Intermediate Algorithm Scripting | 0%
-- [ ] Palindrome Checker
-- [ ] Roman Numeral Converter
-- [ ] Caesars Cipher
-- [ ] Telephone Number validator
-- [ ] Cash Register
 
 <hr>
 
@@ -76,7 +55,7 @@ Numpy | 100%
 ## Machine Learning with Python
 Lessons | Completion
 ------- | :--------:
-Tensorflow | 34%
+Tensorflow | 100%
 How Neural Networks Work | 0%
 - [ ] Rock Paper Scissors
 - [ ] Cat and Dog Image Classifier
