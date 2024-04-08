@@ -1,10 +1,23 @@
-# The example function below keeps track of the opponent's history and plays whatever the opponent played two plays ago. It is not a very good player so you will need to change the code to pass the challenge.
-
+from random import choice
 def player(prev_play, opponent_history=[]):
-    opponent_history.append(prev_play)
+	opponent_history.append(prev_play)
+	win_move = {"R":"P", "P":"S", "S":"R"}
 
-    guess = "R"
-    if len(opponent_history) > 2:
-        guess = opponent_history[-2]
+	#clear previous game history
+	if prev_play == '':
+		opponent_history = ['']
 
-    return guess
+	#if the opponent has played the same move twice
+	if len(opponent_history) > 2 and opponent_history[-2] == prev_play:
+		if prev_play == "R":
+			guess = "P"
+		elif prev_play == "P":
+			guess = "S"
+		else:
+			guess = "R"
+	elif len(opponent_history) > 1:
+		guess = win_move[prev_play]
+	else:
+		guess = choice(list(win_move.keys()))
+
+	return guess
