@@ -5,7 +5,7 @@ Course | Completion
 [Legacy Responsive Web Design Certification](#responsive-web-design)| 100%
 [Scientific Computing with Python Certification](#scientific-computing-with-python) | 100%
 [Data Analysis with Python Certification](#data-analysis-with-python) | 100%
-[Machine Learning with Python Certification](#machine-learning-with-python) | 14%
+[Machine Learning with Python Certification](#machine-learning-with-python) | 28%
 [Relational Database (Beta)](#relational-database) | 100%
 <hr>
 
@@ -56,7 +56,7 @@ Numpy | 100%
 Lessons | Completion
 ------- | :--------:
 Tensorflow | 100%
-How Neural Networks Work | 0%
+How Neural Networks Work | 100%
 - [ ] Rock Paper Scissors
 - [ ] Cat and Dog Image Classifier
 - [ ] Book Recommendation Engine using KNN
