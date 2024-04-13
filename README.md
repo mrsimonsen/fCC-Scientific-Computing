@@ -5,7 +5,7 @@ Course | Completion
 [Legacy Responsive Web Design Certification](#responsive-web-design)| 100%
 [Scientific Computing with Python Certification](#scientific-computing-with-python) | 100%
 [Data Analysis with Python Certification](#data-analysis-with-python) | 100%
-[Machine Learning with Python Certification](#machine-learning-with-python) | 57%
+[Machine Learning with Python Certification](#machine-learning-with-python) | 71%
 [Relational Database (Beta)](#relational-database) | 100%
 <hr>
 
@@ -59,7 +59,7 @@ Tensorflow | 100%
 How Neural Networks Work | 100%
 - [x] Rock Paper Scissors
 - [x] Cat and Dog Image Classifier
-- [ ] Book Recommendation Engine using KNN
+- [x] Book Recommendation Engine using KNN
 - [ ] Linear Regression Health Costs Calculator
 - [ ] Neural Network SMS Text Classifier
 
